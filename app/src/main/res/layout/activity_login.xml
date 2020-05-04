@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/loginLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="234dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/arel"
+            android:paddingLeft="70dp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/editKullanici"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="2dp"
+            android:background="@color/colorWhite"
+            android:hint="@string/kullaniciadi"
+            android:layout_marginLeft="50dp" />
+
+        <EditText
+            android:id="@+id/editSifre"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="50dp"
+            android:hint="@string/sifre"
+            android:password="true"/>
+
+        <Button
+            android:id="@+id/btnGirisYap"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/girisYap"
+            android:textColor="#ffff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mobil Programlama Vize Ödevi</string>
+    <string name="yazi1">Mobil Programlama Vize Ödevi</string>
+    <string name="yazi2">Hüseyin Berk Şenman</string>
+    <string name="yazi3">181130064</string>
+    <string name="kullaniciadi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="girisYap">Giriş Yap</string>
+</resources>
